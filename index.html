@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Assignment 3 : Exercise</title>
+    <style>
+        .image-gallery{
+            width: 800px;
+            border: 2px solid black;
+            border-radius: 5px;
+            margin: auto;
+            padding: 10px;
+        }
+        .images{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+        }
+        .images img{
+            width: 200px;
+            height: 200px;
+            border-radius: 5px;
+            margin: 10px;
+        }
+        .images img:hover{
+            transform: scale(1.1);
+            transition: .5s;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-gallery">
+        <h1>Image Gallery  Assignment 3 : Exercise</h1>
+        <div class="images">
+            <img src="images/image1.jpg" alt="">
+            <img src="images/image2.jpg" alt="">
+            <img src="images/image3.jpeg" alt="">
+            <img src="images/image4.jpeg" alt="">
+            <img src="images/image5.jpeg" alt="">
+            <img src="images/image6.jpeg" alt="">
+        </div>
+    </div>
+</body>
+</html>
